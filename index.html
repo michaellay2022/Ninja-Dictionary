@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <!-- Start of top nav -->
+      <div class="navi flex">
+        <h1 style="font-size: 50px">Dojonary</h1>
+        <input type="text" placeholder="Search" />
+        <button class="login" onclick="logoff(this)">Login</button>
+        <!-- <button class="login" type="submit">Login</button> -->
+      </div>
+      <div class="between"></div>
+      <!-- End of top nav -->
+      <!-- Start of main body where both left and right column display there -->
+      <div class="main">
+        <!-- Start of left column -->
+        <div class="left-col">
+          <div class="top-card flex-start">
+            <div class="ninja">
+              <h2 style="font-size: 50px">ninja</h2>
+              <h5 style="font-size: 25px">noun</h5>
+              <p class="space-like" style="font-size: 20px">Plural: ninjas</p>
+              <!-- <button class="button-like">13 likes</button> -->
+              <button class="button-like" onclick="alert('Ninja was liked')">
+                13 likes!
+              </button>
+            </div>
+            <div class="practitioner">
+              <p style="font-size: 20px">
+                A practitioner skilled in the <span>Japanese</span> art of
+                <span>ninjutsu</span>
+              </p>
+            </div>
+          </div>
+          <div class="bottom-card flex-start">
+            <div class="ninja">
+              <h2 style="font-size: 50px">ninja</h2>
+              <h5 style="font-size: 25px">noun</h5>
+              <p class="space-like" style="font-size: 20px">
+                Plural: <i>ninjas</i>
+              </p>
+              <button class="button-like" onclick="alert('Ninja was liked')">
+                37 likes!
+              </button>
+            </div>
+            <div class="programmer">
+              <p style="font-size: 20px">
+                A <span>programmer</span> who breaks down problems with
+                <span>zen-</span>like focus
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- End of left column -->
+
+        <!-- Start of right column -->
+        <div class="right-col">
+          <div class="box">
+            <p>Dojonary is defined by <b>YOU</b></p>
+            <button onclick="hide(this)" class="def">Add Definition</button>
+          </div>
+          <div class="empty"></div>
+        </div>
+        <!-- End of right column -->
+      </div>
+      <!-- End of Main Body -->
+    </nav>
+    <script src="./script.js"></script>
+  </body>
+</html>
