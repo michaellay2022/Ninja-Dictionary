@@ -7,10 +7,11 @@ nav {
   /* border: 2px solid purple; */
   width: 600px;
   margin: 0 auto;
-  background-color: gold;
 }
 .navi {
-  background-color: #cccccc;
+  background-color: #2962ff;
+  border: 5px solid black;
+  color: white;
   min-height: 80px;
   margin: 0 auto;
 }
@@ -44,9 +45,11 @@ input {
 .top-card {
   border: 5px solid black;
   margin-bottom: 20px;
+  background-color: #ffd500;
 }
 .bottom-card {
   border: 5px solid black;
+  background-color: #ffd500;
 }
 .ninja {
   margin: 20px;
@@ -65,10 +68,12 @@ input {
   border: 5px solid black;
   width: 180px;
   height: 150px;
+  background-color: #ffd500;
 }
 
 .def {
-  background-color: hsl(101deg 38% 63%);
+  background-color: #2962ff;
+  color: white;
   width: 120px;
   height: 30px;
   font-weight: bold;
@@ -98,7 +103,8 @@ span {
 .button-like {
   width: 70px;
   height: 40px;
-  background-color: hsl(45deg 100% 70%);
+  background-color: #2962ff;
+  color: white;
   font-weight: bold;
   box-shadow: 10px 5px 5px black;
   border: 3px solid black;
