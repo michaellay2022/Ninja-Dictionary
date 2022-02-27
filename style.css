@@ -20,11 +20,12 @@ nav {
 }
 .login {
   color: white;
-  background-color: hsl(215deg 77% 53%);
+  background-color: #ffd500;
   box-shadow: 10px 5px 5px black;
   border: 3px solid black;
   margin-right: 20px;
   width: 60px;
+  font-weight: bold;
 }
 input {
   border: 2px solid black;
